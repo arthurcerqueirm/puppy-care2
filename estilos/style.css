@@ -7,16 +7,17 @@
     padding: 0px;
 }
 div#centro > h1{
-    font-size: 100pt;
+    font-size: 8vw;
     color: white;
     font-family: 'puppy';
 }
 div#background{
     background-image: url('../gato2.jpg');
-    width: 99.vw;
+    width: 99vw;
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 
 }
 div#centro{
@@ -73,20 +74,57 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
-  color: #fff;
-  font-weight: 500;
   height: 700px;
   max-height: 100vh;
   max-width: 100vw;
 }
 
+/* Configuração dos slides*/
 .number-slide1 {
-  background-image: url(../seila.png);
+  width: 100vw;
+  display: flex;
+  background-color: #fff;
+}
+.number-slide1 > div > h2 {
+  font-size: 5vw;
+  color: black;
+  margin-right: 70px;
+
+}
+.number-slide1 > div > p {
+  font-size: 1vw;
+  color: black;
+  margin-right: 70px;
+  padding-bottom: 190px;
+
+}
+.number-slide1 > div > img{
+  border-radius: 50px;
+  height: 600px;
+  
 }
 
+
 .number-slide2 {
-  background-image: url(../seila4.png);
+  width: 100vw;
+  display: flex;
+  background-color: #fff;
+}
+.number-slide2 > div > h2 {
+  font-size: 5vw;
+  color: black;
+  margin-right: 70px;
+}
+.number-slide2 > div > p {
+  font-size: 1vw;
+  color: black;
+  margin-right: 70px;
+  padding-bottom: 190px;
+}
+.number-slide2 > div > img{
+  border-radius: 50px;
+  height: 600px;
+  
 }
 
 .number-slide3 {
@@ -195,15 +233,23 @@ div#companheiro{
   margin-top: 50px;
   background-image: url(../humilde.png);
   height: 600px;
+  width: 99vw;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div#companheiro > h2{
+  color: rgba(0, 0, 0, 0.644);
   font-size: 50pt;
   width: 20px;
-  margin-left: 300px;
+  margin-left: 10vw;
   padding-top: 100px;
 }
 
 div#doacao{
   height: 600px;
+  width: 99vw;
+  background-position: left;
+  background-repeat: no-repeat;
 }
